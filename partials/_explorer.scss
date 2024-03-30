@@ -1,0 +1,132 @@
+#explorer-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  top: -75px;
+  padding: 1.5rem 3rem;
+  background-color: white;
+  width: 80vw;
+  border-radius: .5rem;
+  h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 110);
+  }
+}
+
+.slide-container {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  background-color: transparent;
+  margin-top: 24px;
+  border-radius: .3rem;
+  text-wrap: nowrap;
+}
+
+.img-slide-container {
+  background-color: $neutral-blue;
+  
+  margin-right: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .8rem 1rem;
+  }
+}
+
+.img-slide {
+  object-fit: cover;
+  cursor: pointer;
+  overflow: hidden;
+  max-width: 400px;
+  height: 100%;
+}
+
+#span1 {
+  z-index: 2;
+
+  cursor: pointer;
+  padding: 1rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50px;
+  background-color: transparent;
+  transition: all .5s;
+  path {
+    transition: all .5s;
+    fill: transparent;
+  }
+}
+#span2 {
+  z-index: 2;
+
+  cursor: pointer;
+  right: 0;
+  padding: 1rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50px;
+  background-color: transparent;
+  transition: all .5s;
+  path {
+    transition: all .5s;
+    fill: transparent;
+  }
+}
+#span1:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  path {
+    fill: rgba(255, 255, 255, 0.90);
+  }
+}
+#span2:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  path {
+    fill: rgba(255, 255, 255, 0.90);
+  }
+}
+
+
+.text-slide {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 14px;
+  padding: .4rem .6rem;
+  border-radius: .3rem;
+  border-style: none;
+  background-color: $primary-orange;
+  gap: .3rem;
+  a {
+    font-weight: bold;
+    font-size: .9rem;
+    color: $second-blue;
+  }
+  img {
+    width: 20px;
+  }
+}

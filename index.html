@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkyScript</title>
+  <link rel="stylesheet" href="./global.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="hero-header">
+    <div class="padding" id="hero">
+        <nav id="nav">
+          <ul id="nav-list">
+            <div id="items-services">
+              <li><a href="#"><img id="nav-img-services" src="./img/logo.png" alt="logo" width="100px"></a></li>
+              <li class="nav-li">
+                <a class="nav-items" href="#">
+                  <img src="./img/pesquisar.png" alt="search">
+                  Descubra
+                </a>
+              </li>
+              <li class="nav-li">
+                <a class="nav-items" href="#">
+                <img src="./img/aviao.png" alt="plane">
+                Passagens
+                </a>
+              </li>
+              <li class="nav-li">
+                <a class="nav-items" href="#">
+                  <img src="./img/mala.png" alt="suitcase">
+                  Pacotes
+                </a>
+              </li>
+              <li class="nav-li">
+                <a class="nav-items" href="#">
+                  <img src="./img/cama.png" alt="hotel">
+                  Hotéis
+                </a>
+              </li>
+              <li>
+                <a class="nav-items" id="more-item" href="#">
+                  Mais
+                  <img src="./img/seta-baixo.png" alt="arrow-down" width="15px">
+                </a>
+              </li>
+            </div>
+            <div id="items-contacts">
+              <li><a class="nav-items" id="schedule-item" href="#">Agende já!</a></li>
+              <li id="li-login">
+                <img src="./img/login.png" alt="login">
+                <a class="nav-items" href="#">Login/Cadastro</a>
+              </li>
+            </div>  
+          </ul>
+        </nav>
+        <main id="main-hero">
+          <div id="text-main-hero">
+            <h2>Já pensou em ser escritor?</h2>
+            <h1>Roteirize os seus sonhos no céu!</h1>
+          </div>
+          <!-- <div id="img-main-hero">
+            <img src="./img/avioes.png" alt="airplanes" width="350px">
+          </div> -->
+        </main>
+    </div>
+    <div id="explorer-container">
+      <h3>Conheça lugares imperdíveis!</h3>
+      <div class="slide-container">
+        <span id="span1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="#ffffff" d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z"/></svg></span>
+        
+        <span id="span2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path fill="#ffffff" d="M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z"/></svg></span>
+  
+        <div class="img-slide-container">
+          <img class="img-slide" src="./img-slide/disney.jpg" alt="">
+          <div class="text-slide">
+            <p>Disney</p>
+            <button class="button-slide">
+              <a href="#">Quero conhecer!</a>
+              <img src="./img/coqueiro.png" alt="coconut tree">
+            </button>
+          </div>
+        </div>
+        <div class="img-slide-container">
+          <img class="img-slide" src="./img-slide/marrocos.jpg" alt="">
+          <div class="text-slide">
+            <p>Marrocos</p>
+            <button class="button-slide">
+              <a href="#">Quero conhecer!</a>
+              <img src="./img/coqueiro.png" alt="coconut tree">
+            </button>
+          </div>
+        </div>
+        <div class="img-slide-container">
+          <img class="img-slide" src="./img-slide/sidney.jpg" alt="">
+          <div class="text-slide">
+            <p>Sidney</p>
+            <button class="button-slide">
+              <a href="#">Quero conhecer!</a>
+              <img src="./img/coqueiro.png" alt="coconut tree">
+            </button>
+          </div>
+        </div>
+        <div class="img-slide-container">
+          <img class="img-slide" src="./img-slide/sidney.jpg" alt="">
+          <div class="text-slide">
+            <p>Disney</p>
+            <button class="button-slide">
+              <a href="#">Quero conhecer!</a>
+              <img src="./img/coqueiro.png" alt="coconut tree">
+            </button>
+          </div>
+        </div>
+        <div class="img-slide-container">
+          <img class="img-slide" src="./img-slide/sidney.jpg" alt="">
+          <div class="text-slide">
+            <p>Disney</p>
+            <button class="button-slide">
+              <a href="#">Quero conhecer!</a>
+              <img src="./img/coqueiro.png" alt="coconut tree">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="search-container">
+      <div id="elements-search-container">
+        <h2>Já sabe para onde ir?</h2>
+        
+        <div id="group-inputs-search-container">
+  
+          <form action="/search" method="get">
+            <img src="./img/local.png" alt="local">
+            <input class="input-search-container" id="text-input-search-container" type="text" name="locate" placeholder="Vou para...">
+          </form>
+  
+          <input class="input-search-container" type="date"  name="date">
+  
+  
+          <div class="selects-search-container input-search-container">
+    
+            <label for="roomsSelect">Quartos</label>
+            <select id="roomsSelect" name="rooms">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+    
+            <label for="guestsSelect">Hóspedes</label> 
+            <select id="guestsSelect" name="guests">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+    
+          </div>
+  
+          <button id="button-search" class="input-search-container">Fazer busca</button>
+  
+        </div>
+    </div>
+  </div>
+ 
+  <div class="main">
+    <div class="sections-container">
+      <div class="section">
+        <img src="./img-sections/hoteis.jpg">
+        <div class="text-section">
+          <h3>Hotéis</h3>
+          <img src="./img/flecha.png" alt="arrow">
+        </div>
+      </div>
+      <div class="section">
+        <img src="./img-sections/pacotes.jpg">
+        <div class="text-section">
+          <h3>Pacotes</h3>
+          <img src="./img/flecha.png" alt="arrow">
+        </div>
+      </div>
+      <div class="section">
+        <img src="./img-sections/pontos.jpg">
+        <div class="text-section">
+          <h3>Pontos de fidelidade</h3>
+          <img src="./img/flecha.png" alt="arrow">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./script/scrollNav.js"></script>
+</body>
+</html>

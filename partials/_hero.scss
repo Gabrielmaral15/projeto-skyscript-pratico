@@ -1,0 +1,33 @@
+#hero {
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url("img/bg-home.jpg");
+  mask-image: linear-gradient(to top, transparent 1%, rgb(0, 0, 0) 10%);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+}
+
+#main-hero {
+  display: flex;
+}
+
+#text-main-hero {
+  text-align: left;
+  width: 60vw;
+  padding: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(1.5vw + 10px);
+  h2 {
+    color: rgb(255, 137, 27);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+  h1 {
+    color: #fafafa;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+#img-main-hero {
+  margin-left: 10rem;
+}
